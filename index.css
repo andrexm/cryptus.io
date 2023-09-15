@@ -9,3 +9,28 @@
 body {
     @apply bg-neutral-950
 }
+
+/* navbar */
+.nav-logo-name {
+    @apply self-center text-lg md:text-xl lg:text-2xl font-semibold whitespace-nowrap text-white
+}
+
+.nav-item {
+    @apply block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 lowercase
+        md:hover:text-white text-neutral-300/80 hover:text-white
+}
+
+.nav-item.active {
+    @apply text-white
+}
+
+/* Btns */
+.btn {
+    @apply text-white ring-2 focus:outline-none font-medium rounded-lg
+        text-xs md:text-sm px-6 py-2 md:py-3 text-center mr-3 md:mr-0 uppercase
+}
+
+.btn-outline {
+    @apply ring-secondary-400 bg-transparent hover:bg-white/10 duration-500 shadow-md
+        shadow-secondary-500
+}

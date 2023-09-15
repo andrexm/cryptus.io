@@ -12,7 +12,7 @@ define('URL', "http://localhost:8100");
     <link rel="stylesheet" href="<?= URL . '/assets/css/' ?>lunar.min.css">
 </head>
 <body>
-    
+    <?php require_once(BASE . "/partials/navbar.php") ?>
     <script src="<?= URL . '/assets/js/lunar.min.js' ?>"></script>
     <script src="<?= URL . '/assets/js/script.js' ?>"></script>
 </body>
