@@ -1,4 +1,4 @@
-<nav class="fixed w-full z-50 top-0 left-0">
+<nav class="fixed w-full z-50 top-0 left-0 backdrop-blur">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2 md:p-4">
         <a href="#!" class="flex items-center">
             <img src="<?= URL ?>/assets/img/logo.png" class="h-8 mr-3" alt="Cryptus.io Logo">
