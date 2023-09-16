@@ -1,7 +1,7 @@
 <div class="bg-gradient-to-b from-secondary-500/20 to-secondary-700/10 px py
     text-neutral-200/80 grid lg:grid-cols-3 items-center z-10 overflow-y-hidden">
     <div class="lg:col-span-2 my-20 lg:my-32 z-20">
-        <div class="mx-auto lg:mx-0 w-20 h-1 bg-secondary-500 rounded mb-10"></div>
+        <div class="mx-auto lg:mx-0 w-20 h-1 bg-secondary-500 rounded shadow shadow-secondary-500 mb-10"></div>
         <div class="text-center lg:text-left text-4xl md:text-4xl lg:text-5xl lg:leading-[4rem] mb-10">
             An Inovative <br> Cryptocurrence-Oriented <br> Technologies.
         </div>
