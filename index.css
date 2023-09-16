@@ -29,7 +29,7 @@ body {
 
 .nav-item {
     @apply block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:p-0 lowercase
-        md:hover:text-white text-neutral-300/80 hover:text-white
+        md:hover:text-white text-white/80 hover:text-white
 }
 
 .nav-item.active {
