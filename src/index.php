@@ -14,6 +14,7 @@ define('URL', "http://localhost:8100");
 <body class="max-w">
     <?php require_once(BASE . "/partials/navbar.php") ?>
     <?php require_once(BASE . "/partials/banner.php") ?>
+    <?php require_once(BASE . "/partials/products.php") ?>
     <script src="<?= URL . '/assets/js/lunar.min.js' ?>"></script>
     <script src="<?= URL . '/assets/js/script.js' ?>"></script>
 </body>
