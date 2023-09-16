@@ -16,6 +16,7 @@ define('URL', "http://localhost:8100");
     <?php require_once(BASE . "/partials/banner.php") ?>
     <?php require_once(BASE . "/partials/products.php") ?>
     <?php require_once(BASE . "/partials/contact.php") ?>
+    <?php require_once(BASE . "/partials/footer.php") ?>
     <script src="<?= URL . '/assets/js/lunar.min.js' ?>"></script>
     <script src="<?= URL . '/assets/js/script.js' ?>"></script>
 </body>
