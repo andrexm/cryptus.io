@@ -71,3 +71,8 @@ body {
 .products .content {
     @apply text-center text-neutral-300/70
 }
+
+/* form */
+form * {
+    @apply outline-none
+}
